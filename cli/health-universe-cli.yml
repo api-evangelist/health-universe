@@ -1,0 +1,74 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.healthuniverse.com/overview/command-line-interface/cli
+name: Health Universe CLI
+binary: hu
+package: "@health-universe/cli"
+registry: npm
+install:
+- npm install -g @health-universe/cli
+prerequisites: Node.js 18+ and npm 9+
+authentication: Browser-based login (hu login) with 24-hour token validity and automatic refresh
+features:
+- Single-command mode for scripts and automation
+- Interactive REPL mode with tab completion
+- Machine-readable JSON output
+- Browser-based authentication (no terminal password entry)
+command_groups:
+- group: auth
+  commands:
+  - {name: hu login, description: Open your browser to authenticate with Health Universe}
+  - {name: hu logout, description: Clear stored authentication credentials}
+  - {name: hu whoami, description: Display currently authenticated user and active workspace}
+- group: apps
+  commands:
+  - {name: hu apps list, description: Enumerate applications in the active workspace}
+  - {name: hu apps create, description: Create a new application}
+  - {name: hu apps delete, description: Remove an application}
+  - {name: hu apps open, description: Launch an application in the browser}
+  - {name: hu apps status, description: Check deployment progress of an application}
+  - {name: hu apps deploy, description: Initiate a deployment for an application}
+  - {name: hu apps logs, description: Retrieve deployment or build logs}
+  - {name: hu apps health, description: Perform a health check on an application}
+  - {name: hu apps archive, description: Shut down a running instance while preserving configuration}
+  - {name: hu apps unarchive, description: Restore an archived application online}
+- group: apps collaborators
+  commands:
+  - {name: hu apps collaborators list, description: View application collaborators}
+  - {name: hu apps collaborators add, description: Grant collaborator access via email}
+  - {name: hu apps collaborators remove, description: Revoke collaborator permissions}
+- group: apps domains
+  commands:
+  - {name: hu apps domains list, description: Display custom domains for an application}
+  - {name: hu apps domains add, description: Attach a custom domain to an application}
+  - {name: hu apps domains verify, description: Confirm DNS configuration for a domain}
+  - {name: hu apps domains activate, description: Enable live traffic on a custom domain}
+  - {name: hu apps domains remove, description: Detach a custom domain}
+- group: orgs
+  commands:
+  - {name: hu orgs list, description: Show accessible workspaces}
+  - {name: hu orgs switch, description: Change the active workspace}
+  - {name: hu orgs members, description: List workspace members}
+- group: projects
+  commands:
+  - {name: hu projects list, description: Enumerate projects in the active workspace}
+  - {name: hu projects create, description: Create a new project}
+  - {name: hu projects delete, description: Remove a project}
+  - {name: hu projects collaborators list, description: View project collaborators}
+  - {name: hu projects collaborators add, description: Grant project collaborator access}
+  - {name: hu projects collaborators remove, description: Revoke project collaborator permissions}
+- group: threads
+  commands:
+  - {name: hu threads list, description: Enumerate threads in the active workspace}
+  - {name: hu threads delete, description: Remove a thread}
+- group: config
+  commands:
+  - {name: hu config show, description: Display current CLI settings and token status}
+  - {name: hu config set, description: Update a configuration parameter}
+  - {name: hu config unset, description: Clear a specific configuration key}
+  - {name: hu config reset, description: Reinitialize entire configuration}
+- group: admin
+  commands:
+  - {name: hu admin stats, description: Display platform-wide statistics across 24h, 7d, 30d}
+  - {name: hu admin users, description: List recently active users}
+  - {name: hu admin orgs, description: Show all platform workspaces}

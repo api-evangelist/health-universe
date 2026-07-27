@@ -1,0 +1,13 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://www.healthuniverse.com/security
+url: https://www.healthuniverse.com/security
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://www.healthuniverse.com/security
+  keywords:
+  - soc2
+  - hipaa

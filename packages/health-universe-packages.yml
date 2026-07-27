@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: https://pypi.org/project/health-universe-sdk/ ; https://www.npmjs.com/package/@health-universe/cli ; https://github.com/Health-Universe
+packages:
+- language: javascript
+  registry: npm
+  name: "@health-universe/cli"
+  version: 0.5.0
+  url: https://www.npmjs.com/package/@health-universe/cli
+  install: npm install -g @health-universe/cli
+  description: Command-line interface for the Health Universe platform. Manage applications, deployments, organizations, and projects from your terminal.
+  official: true
+- language: python
+  registry: pypi
+  name: health-universe-sdk
+  version: 0.1.2
+  url: https://pypi.org/project/health-universe-sdk/
+  install: pip install health-universe-sdk
+  description: Health Universe SDK.
+  repository: https://github.com/Health-Universe/health-universe-sdk
+  author: greyson.lalonde@healthuniverse.com
+  official: true
+- language: python
+  registry: pypi
+  name: healthuniverse
+  version: 0.1.2
+  url: https://pypi.org/project/healthuniverse/
+  install: pip install healthuniverse
+  author: dan.caron@healthuniverse.com
+  official: true
+- language: python
+  registry: github
+  name: healthuniverse-a2a-sdk-python
+  url: https://github.com/Health-Universe/healthuniverse-a2a-sdk-python
+  description: SDK for building A2A (Agent2Agent) agents in Health Universe. Published on GitHub (MIT); not indexed on PyPI under this name.
+  official: true

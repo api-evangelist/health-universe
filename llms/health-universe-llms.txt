@@ -1,0 +1,70 @@
+# Health Universe
+
+## Docs
+
+- [Overview of Health Universe](https://docs.healthuniverse.com/overview/core-concepts/readme.md)
+- [How Health Universe Works](https://docs.healthuniverse.com/overview/core-concepts/how-health-universe-works.md)
+- [15 Second Quick-Start](https://docs.healthuniverse.com/overview/core-concepts/15-second-quick-start.md)
+- [Streamlit Quick-Start](https://docs.healthuniverse.com/overview/core-concepts/15-second-quick-start/streamlit-quick-start.md)
+- [FastAPI Quick-Start](https://docs.healthuniverse.com/overview/core-concepts/15-second-quick-start/fastapi-quick-start.md)
+- [Getting started with Health Universe](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/getting-started-with-health-universe.md)
+- [Create a Health Universe Account](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/getting-started-with-health-universe/create-a-health-universe-account.md)
+- [Create a Github Account](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/getting-started-with-health-universe/create-a-github-account.md)
+- [Link your Github Account to your Health Universe Account](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/getting-started-with-health-universe/link-your-github-account-to-your-health-universe-account.md)
+- [Creating a Workspace](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/creating-a-workspace.md)
+- [Collaborators](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/collaborators.md)
+- [Developing your Health Universe App](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app.md)
+- [Streamlit vs FastAPI vs A2A vs React](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/streamlit-vs-fastapi-vs-a2a.md)
+- [Working in Streamlit](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-in-streamlit.md)
+- [Typical Project Setup](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-in-streamlit/typical-project-setup.md)
+- [Your First Health Universe App](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-in-streamlit/your-first-health-universe-app.md)
+- [Streamlit Best Practices](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-in-streamlit/streamlit-best-practices.md)
+- [Working in FastAPI](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-in-fastapi.md)
+- [Typical Project Setup](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-in-fastapi/typical-project-setup.md)
+- [Your First Health Universe App](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-in-fastapi/your-first-health-universe-app.md)
+- [Navigator FastAPI best practices](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-in-fastapi/navigator-fastapi-best-practices.md)
+- [Working in React](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-in-react.md)
+- [Typical Project Setup](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-in-react/typical-project-setup.md)
+- [Your First Health Universe App](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-in-react/your-first-health-universe-app.md)
+- [SDK Reference](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-in-react/sdk-reference.md)
+- [Working with A2A Agents](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-with-a2a-agents.md)
+- [Getting Started](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-with-a2a-agents/getting-started.md)
+- [Agent Types](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-with-a2a-agents/agent-types.md)
+- [Inter-Agent Communication](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-with-a2a-agents/inter-agent-communication.md)
+- [Document Operations](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-with-a2a-agents/document-operations.md)
+- [Local Development](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-with-a2a-agents/local-development.md)
+- [Observability](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-with-a2a-agents/observability.md)
+- [API Reference](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-with-a2a-agents/api-reference.md)
+- [Deploying your app to Health Universe](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/deploying-your-app-to-health-universe.md)
+- [Deploying to Health Universe](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/deploying-your-app-to-health-universe/deploying-to-health-universe.md)
+- [Secret Management](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/deploying-your-app-to-health-universe/secret-management.md)
+- [Connecting to an LLM](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/deploying-your-app-to-health-universe/connecting-to-an-llm.md)
+- [Connecting to an external data source](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/deploying-your-app-to-health-universe/connecting-to-an-external-data-source.md)
+- [Testing your app](https://docs.healthuniverse.com/overview/testing-your-app.md)
+- [Re-deploying your app](https://docs.healthuniverse.com/overview/re-deploying-your-app.md)
+- [Document your app](https://docs.healthuniverse.com/overview/document-your-app.md)
+- [Deleting your App on Health Universe](https://docs.healthuniverse.com/overview/deleting-your-app-on-health-universe.md)
+- [Overview](https://docs.healthuniverse.com/overview/observability/observer.md)
+- [Observer Dashboard](https://docs.healthuniverse.com/overview/observability/dashboard.md)
+- [SDK Integration](https://docs.healthuniverse.com/overview/observability/sdk-integration.md)
+- [Overview](https://docs.healthuniverse.com/overview/command-line-interface/cli.md)
+- [Command Reference](https://docs.healthuniverse.com/overview/command-line-interface/command-reference.md)
+- [Troubleshooting](https://docs.healthuniverse.com/overview/command-line-interface/troubleshooting.md)
+- [Data Formats, Standards & Privacy](https://docs.healthuniverse.com/overview/additional-resources/data-formats-standards-and-privacy.md)
+- [External Tools and Libraries](https://docs.healthuniverse.com/overview/additional-resources/external-tools-and-libraries.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.healthuniverse.com/overview/core-concepts/readme.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

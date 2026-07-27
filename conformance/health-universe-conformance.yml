@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.healthuniverse.com/security
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: "SOC 2 Type II - annual third-party audit of security, availability, and privacy controls (healthuniverse.com/security)"
+- id: hipaa
+  conforms: true
+  evidence: "HIPAA compliant - BAAs with every partner; administrative, technical, and physical safeguards"
+- id: onc-health-it
+  conforms: true
+  evidence: "ONC Health IT Certified for AI-based clinical decision support (45 CFR 170.315(b)(11))"
+- id: tefca
+  conforms: true
+  evidence: "TEFCA participant via Kno2 QHIN for nationwide patient record access"
+- id: smart-on-fhir
+  conforms: true
+  evidence: "Unified patient record integrates SMART on FHIR (docs + platform)"
+- id: nist-ial2
+  conforms: true
+  evidence: "NIST Identity Assurance Level II identity verification for provider access"
+- id: aes-256-encryption
+  conforms: true
+  evidence: "AES-256 encryption at rest and in transit"
+certifications:
+- SOC 2 Type II
+- HIPAA
+- ONC Health IT (b.11)
+- TEFCA
+- NIST IAL2
+compliance_page: https://www.healthuniverse.com/security
