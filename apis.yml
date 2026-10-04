@@ -45,7 +45,21 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 image: https://www.healthuniverse.com/favicon.ico
+x-docs-platform: gitbook
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-10-03
 tags:
+- Company
+- Healthcare
+- Artificial Intelligence
+- AI Agents
+- Clinical
+- Deployment
+- FHIR
+- A2A
+- HIPAA
+- Life Sciences
+tags_raw:
 - Company
 - Healthcare
 - Artificial Intelligence
@@ -56,6 +70,7 @@ tags:
 - Agent2Agent
 - HIPAA
 - Life Sciences
+- A2A
 apis: []
 maintainers:
 - FN: Kin Lane
