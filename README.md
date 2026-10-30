@@ -64,15 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Health Universe is an enterprise healthcare AI platform and compliant app cloud that lets clinical, research, and life-sciences teams build, deploy, govern, and monitor AI agents inside regulated environments. Developers package Python models as Streamlit, FastAPI, React, or Agent2Agent (A2A) apps and ship them with one click to a HIPAA-aligned, SOC 2 Type II, ONC-certified, TEFCA-connected workspace.
+Health Universe is an enterprise healthcare AI platform and compliant app cloud that lets clinical, research, and life-sciences teams build, deploy, govern, and monitor AI agents inside regulated environments. Developers package Python models as Streamlit, FastAPI, React, or Agent2Agent (A2A) apps and ship them with one click to a HIPAA-aligned, SOC 2 Type II, ONC-certified, TEFCA-connected workspace. The platform unifies patient records via TEFCA and SMART on FHIR, and provides Navigator, Explorer/Roster, and Observer surfaces for deploying agents, building cohorts, and monitoring cost, hallucination, and high-risk scenarios with human-in-the-loop review. Health Universe ships a first-party CLI (@health-universe/cli), a Python SDK, and an A2A agent SDK. Backed by Kleiner Perkins.
 
-The platform unifies patient records via TEFCA and SMART on FHIR and provides Navigator, Explorer/Roster, and Observer surfaces for deploying agents, building cohorts, and monitoring cost, hallucination, and high-risk scenarios with human-in-the-loop review.
+**Areas:** Company · Healthcare · Artificial Intelligence · AI Agents · Clinical · Deployment · FHIR · A2A · HIPAA · Life Sciences
 
-- Website: https://www.healthuniverse.com/
-- Docs / Developer portal: https://docs.healthuniverse.com/
-- GitHub: https://github.com/Health-Universe
-- CLI: `npm install -g @health-universe/cli`
-- Python SDK: `pip install health-universe-sdk`
-- Security & compliance: https://www.healthuniverse.com/security (SOC 2 Type II, HIPAA, ONC b.11, TEFCA, NIST IAL2)
+## Health Universe on APIs.io
 
-Backed by: kleiner-perkins
+Everything profiled for Health Universe is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/health-universe/](https://apis.io/providers/health-universe/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Health Universe Domain Security](https://apis.io/security/health-universe/health-universe-domain-security/)
+- [Health Universe Trust Center](https://apis.io/security/health-universe/health-universe-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.healthuniverse.com/)
+- [Documentation](https://docs.healthuniverse.com/)
+- [Getting started](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/getting-started-with-health-universe)
+- [API reference](https://docs.healthuniverse.com/overview/building-apps-in-health-universe/developing-your-health-universe-app/working-with-a2a-agents/api-reference)
+- [Sign up](https://www.healthuniverse.com/sign-in)
+- [Support](https://www.healthuniverse.com/get-in-touch)
+- [Blog](https://www.healthuniverse.com/blogs)
+- [Security](https://www.healthuniverse.com/security)
+- [Compliance](https://www.healthuniverse.com/security)
+- [Terms of service](https://www.healthuniverse.com/terms-of-service)
+- [Privacy policy](https://www.healthuniverse.com/privacy-policy)
+- [GitHub](https://github.com/Health-Universe)
+
+## API Evangelist rating
+
+**Kin Score 21.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/health-universe/](https://apis.io/providers/health-universe/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Health Universe: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/health-universe/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
